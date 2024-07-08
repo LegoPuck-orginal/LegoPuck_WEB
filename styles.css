@@ -13,6 +13,39 @@ header {
     padding: 20px;
 }
 
+/* Orange Akzent */
+.orange-accent {
+    color: orange;
+}
+
+/* Neue Stile */
+.neue-klasse {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.neue-klasse p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Button-Stile */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
 header h1 {
     font-size: 24px;
     margin: 0;
