@@ -1,72 +1,167 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Webseite</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Add custom styles for the navigation bar */
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        nav ul li {
-            margin-right: 10px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            padding: 5px;
-        }
-
-        nav ul li a:hover {
-            background-color: #555;
-        }
-    </style>
-</head>
 <body>
-    <header>
-        <h1>Willkommen auf meiner Webseite</h1>
-    </header>
+    <section>
+      <div class="icon-container">
+        <div class="icon-box about" data-modal="about">
+          <i class="fa-regular fa-address-card"></i>
+        </div>
+        <div class="icon-box projects" data-modal="projects">
+          <i class="fa-solid fa-laptop-code"></i>
+        </div>
+      
+        <div class="icon-box contact" data-modal="contact">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+      </div>
+    </section>
 
-    <nav>
-        <ul>
-            <li><a href="#">Startseite</a></li>
-            <li><a href="#">Über uns</a></li>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="https://www.facebook.com">Facebook</a></li>
-            <li><a href="https://www.instagram.com">Instagram</a></li>
-            <li><a href="https://www.twitter.com">Twitter</a></li>
+    <div class="popup" id="about">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popup-body about-container">
+          <div class="img-frame">
+        <img src="legopuck.png" alt="Legopuck" />
+              
+        
+          </div>
+          <div class="hero-content">
+            <h1>LegoPuck</h1>
+            <p>
+            ich bin kleiner content creater und streame auf twitch geleglich kommen auch videos auf youtube 
+            aller dings fehlt mir die zeit um das ganze reglelmäßig zu machen
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        </ul>
-    </nav>
+    <div class="popup" id="projects">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
 
-    <main>
-        <section>
-            <h2>Über uns</h2>
-            <p>Hier kannst du Informationen über uns einfügen.</p>
-        </section>
+        <div class="popup-body">
+          <div class="skill-list">
+            <h1>Skills</h1>
+            <ul>
+              <li>ich habe keine </li>
+         
+            </ul>
+          </div>
 
-        <section>
-            <h2>Kontakt</h2>
-            <p>Hier kannst du deine Kontaktdaten einfügen.</p>
-        </section>
-    </main>
+          <div class="project-container">
+            <h1>Projects</h1>
+            <h2>Kommen Noch </h2>
+            <div class="all-projects">
+              <div class="project-box">
+                <img
+                  src="bild"
+                  alt="" />
+                <div class="overlay">
+                  <h3>-</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
 
-    <footer>
-        <p>&copy; 2024 Meine Webseite. Alle Rechte vorbehalten.</p>
-    </footer>
-</body>
-</html>
+              <div class="project-box">
+                <img
+                  src="bild"
+                  alt="" />
+                <div class="overlay">
+                  <h3>-</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="Bild"
+                  alt="" />
+                <div class="overlay">
+                  <h3>-</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="bild"
+                  alt="" />
+                <div class="overlay">
+                  <h3>-</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <div class="popup" id="contact">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popup-body contact-container">
+          <h1>Contact</h1>
+          <p>du kannst mich über dc oder email ereichen
+            wennn du dich für dc ( discord ) endschiden haben soltest 
+            das öfne bitte ein ticket auch dem klehausen discord server 
+            denn ihr in allen meinen sochel media kannelen angeping finden könnt
+          </p>
+         
+     
+     
+         
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+  <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
