@@ -8,7 +8,7 @@
     rel="stylesheet">
     <link rel='stylesheet' href='style.css'>
 
-    <title>Links</title>
+    <title>LegoPuck</title>
   </head>
 
   <body>
@@ -26,22 +26,22 @@
         </div>
 
         <div class='header__icon-box'>
-          <img src='LegoPuck.png' alt='cartoon portrait of Westy'
+          <img src='Hier dein Photo' alt='cartoon portrait of Westy'
           class='header__icon'/>
         </div>
       </header>
       </div>
 
     <div class='links-container'>
-      <li class='right'>https://www.youtube.com/@LegoPuck<a class='link' href='#'>YouTube</a>
+      <li class='right'><a class='link' href='https://www.youtube.com/@LegoPuck'>YouTube</a>
         </li>
-      <li class='left'>https://Twich.tv/legopuck<a class='link'href='#'>Twich</a>
+      <li class='left'><a class='link'href='https://Twitch.tv/legopuck'>Twitch</a>
         </li>
-      <li class='right'>https://dsc.gg/<a class='link'href='#'>Discord</a>
+      <li class='right'><a class='link'href='https://dsc.gg/kle'>Discord</a>
         </li>
-      <li class='left'>https://github.com/LegoPuck-orginal<a class='link'href='#'>Github</a>
+      <li class='left'><a class='link'href='https://github.com/LegoPuck-orginal'>Github</a>
         </li>
-      <li class='right'>https://klehausen.de<a class='link' href='#'>KleHausen</a>
+      <li class='right'><a class='link' href='https://klehausen.de'>KleHausen</a>
         </li>
     </div>
 
@@ -51,67 +51,3 @@
     </div>
   </body>
 </html>
-<script src="script.js"></script>
-  </body>
-</html>
-
-<style>
-    .dark-mode-switch {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 9999;
-    }
-
-    .dark-mode-switch input[type="checkbox"] {
-        display: none;
-    }
-
-    .dark-mode-switch label {
-        display: inline-block;
-        width: 40px;
-        height: 20px;
-        background-color: #ccc;
-        border-radius: 10px;
-        position: relative;
-        cursor: pointer;
-    }
-
-    .dark-mode-switch label:after {
-        content: "";
-        position: absolute;
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
-        background-color: #fff;
-        top: 1px;
-        left: 1px;
-        transition: transform 0.3s ease;
-    }
-
-    .dark-mode-switch input[type="checkbox"]:checked + label {
-        background-color: #333;
-    }
-
-    .dark-mode-switch input[type="checkbox"]:checked + label:after {
-        transform: translateX(20px);
-    }
-</style>
-
-<div class="dark-mode-switch">
-    <input type="checkbox" id="dark-mode-toggle">
-    <label for="dark-mode-toggle"></label>
-</div>
-
-<script>
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
-    const body = document.body;
-
-    darkModeToggle.addEventListener('change', () => {
-        if (darkModeToggle.checked) {
-            body.classList.add('dark-mode');
-        } else {
-            body.classList.remove('dark-mode');
-        }
-    });
-</script>
